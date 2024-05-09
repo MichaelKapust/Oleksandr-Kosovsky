@@ -1,0 +1,62 @@
+        /* Загальні стилі */
+        body {
+            background-color: #2f2e41;
+            /* Темний фон */
+            color: #ffffff;
+            /* Білий текст */
+            font-family: Arial, sans-serif;
+            /* Шрифт */
+            margin: 0;
+            padding: 20px 144px;
+        }
+
+        /* Стилі для заголовків */
+        h1,
+        h2,
+        h3 {
+            color: #f8cb00;
+            /* Жовтий колір для заголовків */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Стилі для навігації */
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            color: #ffffff;
+            /* Білий колір посилань */
+            font-size: 18px;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #4a4e69;
+            /* Темно-сірий фон для посилань */
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #f8cb00;
+            /* Жовтий фон при наведенні на посилання */
+        }
+
+        /* Стилі для головної частини */
+        main {
+            padding: 20px;
+        }
+
+        /* Стилі для футера */
+        footer {
+            background-color: #1a1b29;
+            /* Темний фон футера */
+            color: #ffffff;
+            /* Білий текст у футері */
+            text-align: center;
+            padding: 10px 0;
+            bottom: 0;
+            width: 100%;
+            border-radius: 24px;
+        }
